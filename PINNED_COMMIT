@@ -1,0 +1,12 @@
+# FFmpeg upstream commit this overlay was developed and tested against.
+# integrate.sh uses anchored, idempotent edits and should tolerate nearby
+# revisions, but this is the known-good baseline.
+#
+#   repo:   https://github.com/FFmpeg/FFmpeg.git
+#   commit: 49a77d37be
+#   ffmpeg version string: N-124714-g49a77d37be (≈ FFmpeg 8.0.git, libavcodec 62.35)
+#
+# To reproduce exactly:
+#   git clone https://github.com/FFmpeg/FFmpeg.git ffmpeg
+#   cd ffmpeg && git checkout 49a77d37be
+49a77d37be
